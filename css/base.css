@@ -1,0 +1,25 @@
+#splashcloud {
+  font-family:verdana;
+  text-align:center;
+  border:1px solid red;
+  margin-top:100px;
+  padding:100px;
+}
+
+span.vertical {
+  position:absolute;
+  display:block;
+  float:right;
+  -webkit-transform:rotate(-90deg);
+}
+
+span.horizontal {
+  position:absolute;
+  display:block;
+  float:right;
+  -webkit-transform:rotate(0deg);
+}
+
+span {
+  border:1px solid blue;
+}
