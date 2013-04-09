@@ -1,29 +1,34 @@
 /* container */
 #splashcloud {
+  width:500px;
   font-family:verdana;
-  border:1px solid red;
+  /* debug border:1px solid red; */
   margin-top:100px;
   padding:0px;
   height:500px;
 }
 
 span.vertical {
-  margin:0px;
+  margin:5px;
   float:left;
   display:block;
-  -webkit-transform:rotate(-90deg);
+  transform:rotate(-90deg);
+  -ms-transform:rotate(-90deg); /* IE 9 */
+  -moz-transform:rotate(-90deg); /* Firefox */
+  -webkit-transform:rotate(-90deg); /* Safari and Chrome */
+  -o-transform:rotate(-90deg); /* Opera */
 }
 
 span.horizontal {
-  margin:10px;
+  float:left;
+  margin:0px;
   display:block;
-  -webkit-transform:rotate(0deg);
 }
 
-/* debug */
+/* debug 
 span {
   border:1px blue solid;
-}
+} */
 
 
 /* links decoration */
@@ -34,5 +39,5 @@ a:link {
 
 a:hover {
   text-decoration:none;
-  color:blue;
+  color:#3300FF;
 }
