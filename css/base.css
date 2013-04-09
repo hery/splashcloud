@@ -1,25 +1,38 @@
+/* container */
 #splashcloud {
   font-family:verdana;
-  text-align:center;
   border:1px solid red;
   margin-top:100px;
-  padding:100px;
+  padding:0px;
+  height:500px;
 }
 
 span.vertical {
-  position:absolute;
+  margin:0px;
+  float:left;
   display:block;
-  float:right;
   -webkit-transform:rotate(-90deg);
 }
 
 span.horizontal {
-  position:absolute;
+  margin:10px;
   display:block;
-  float:right;
   -webkit-transform:rotate(0deg);
 }
 
+/* debug */
 span {
-  border:1px solid blue;
+  border:1px blue solid;
+}
+
+
+/* links decoration */
+a:link {
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  text-decoration:none;
+  color:blue;
 }
