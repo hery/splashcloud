@@ -23,5 +23,7 @@ Note
 
 Obtaining a usable tag-cloud still requires a bit of fiddling, but I am working on automating that.
 
+[Demo][1]
+--------
 
-
+[1]: http://hery.ratsimihah.com/cloud
